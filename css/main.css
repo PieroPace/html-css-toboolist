@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+header, main {
+    background-color: white;
+}
+
+header {
+    height: 80px;
+    padding: 10px 0;
+    line-height: 40px;
+}
+
+header img {
+    vertical-align: bottom;
+    height: 100%;
+    margin: 0 10px;
+}
+
+header span{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+main {
+    width: 60%;
+    margin: 30px auto 15px;
+
+}
+
+.container{
+    padding: 10px 40px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 10%;
+    padding: 5px 10px;
+}
+
+#add-task{
+    color: white;
+    background-color: #47ADF1;
+}
+
+#add-section{
+    color: lightgray;
+    border: 1px solid lightgray;
+}
+
+ul{
+    list-style:none;
+}
+
+.lista-name {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.lista-item {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+
+.lista-name:before { 
+    content: '\1F53B';
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.check {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 0.5em;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.true {
+    border: 1px solid green;
+}
+
+.false {
+    border: 1px solid red;
+}
+
+.true:before {
+    content: '\2713';
+    color: green;
+}
+
+.false:before {
+    content: '\2717';
+    color: red;
+}
+
+
+
+.themes {
+    display: inline-block;
+    color: white;
+    border-radius: 20% 30%;
+    padding: 5px 10px;
+    font-size: 0.5em;
+}
+
+.editorial {
+    background-color: #45ABE9;
+}
+
+.goals{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.mobile{
+    background-color: #F29E33;
+}
+
+.website{
+    background-color: #D962A0;
+}
+
+.sales{
+    background-color: #B0C936;
+}
+
+.editorial:before { 
+    content: 'Editorial';
+}
+
+.goals:before { 
+    content: 'Q1 Goals';
+}
+
+.recruiting:before { 
+    content: 'Recruiting';
+}
+
+.mobile:before { 
+    content: 'Mobile';
+}
+
+.website:before { 
+    content: 'Website';
+}
+
+.sales:before { 
+    content: 'Sales';
+}
